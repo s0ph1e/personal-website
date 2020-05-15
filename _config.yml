@@ -32,6 +32,19 @@ bio:
   Hi, I'm Sophia. I am full-stack software engineer with a passion for node.js and web development, currently living in Ukraine.<br/>
   I am passionate about building software that improves the lives of those around me. I have diverse set of skills, ranging from frontend, all the way to backend, databases and infrastructure administration.
 
+experience:
+  - date: "2019 - present"
+    title: "Debitoor"
+    description: "help small business strive"
+
+  - date: "2017 - 2019"
+    title: "Thomas Cook"
+    description: "Help people to travel"
+
+  - date: "2015 - 2017"
+    title: "Everad"
+    description: "Help people to buy godgi berries"
+
 social_media:
   # behance: your_username
   # dribbble: your_username
