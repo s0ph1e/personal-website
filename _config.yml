@@ -4,6 +4,7 @@ style: light
 encoding: utf-8
 
 repository: s0ph1e/personal-website
+baseurl: /
 
 plugins:
   - jekyll-octicons
