@@ -21,11 +21,22 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 300
   exclude:
     archived: false
     forks: false
     # projects:
+  include:
+    - node-website-scraper
+    - website-scraper-puppeteer
+    - node-website-scraper-phantom
+    - demo
+    - star-history
+    - travel-from-ukraine
+    - eml-reader
+    - uz-search
+    - node-unisender
+
 
 
 bio:
