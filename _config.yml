@@ -1,6 +1,8 @@
 layout: stacked
 style: light
 
+repository: s0ph1e/personal-website
+
 plugins:
   - jekyll-octicons
   - jekyll-github-metadata
