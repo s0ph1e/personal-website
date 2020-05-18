@@ -37,8 +37,7 @@ jobs:
           LANG: "en_US.UTF-8"
           LANGUAGE: "en_US.UTF-8"
           JEKYLL_PAT: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          jekyll_src: '_site'
+
 #       - name: Build & Deploy to GitHub Pages
 #         uses: DavidS/jekyll-deploy@1.1.1
 #         env:
