@@ -28,24 +28,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-build-
             ${{ runner.os }}-
+          
 
       - name: Build & Deploy to GitHub Pages
-        uses: BryanSchuetz/jekyll-deploy-gh-pages@master
-        env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-          GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
+        uses: s0ph1e/jekyll-deploy@master
+        env:
           JEKYLL_ENV: production
+          GH_PAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LC_ALL: "C.UTF-8"
           LANG: "en_US.UTF-8"
           LANGUAGE: "en_US.UTF-8"
-          
-
-#       - name: Build & Deploy to GitHub Pages
-#         uses: DavidS/jekyll-deploy@1.1.1
-#         env:
-#           JEKYLL_ENV: production
-#           GH_PAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#           LC_ALL: "C.UTF-8"
-#           LANG: "en_US.UTF-8"
-#           LANGUAGE: "en_US.UTF-8"
