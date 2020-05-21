@@ -34,6 +34,7 @@ jobs:
         uses: s0ph1e/jekyll-deploy@master
         env:
           JEKYLL_ENV: production
+          JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
           GH_PAGES_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           LC_ALL: "C.UTF-8"
           LANG: "en_US.UTF-8"
