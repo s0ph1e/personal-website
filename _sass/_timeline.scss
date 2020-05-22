@@ -171,3 +171,8 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
         }
     }
 }
+
+.timeline-title-logo {
+    height: 20px; 
+    vertical-align: bottom
+}

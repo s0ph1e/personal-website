@@ -1,4 +1,4 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>My Experience</h2>
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %} class="mb-4">My Experience</h2>
 
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
 
@@ -10,9 +10,20 @@
                         <span class="f6 text-uppercase text-bold">{{ item.date }}</span>
                      </div>
                      <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <h3 class="timeline-title">{{ item.title }}</h3>
+                    <div class="timeline-content mt-1">
+                        <p class="timeline-title h3">
+                          {% if item.logo %}
+                            <img src="{{ item.logo }}" class="timeline-title-logo mr-2" />
+                          {% endif %}
+                          <span>{{ item.title }}</span>
+                        </p>
                         <p class="f5 text-gray mb-0 mt-2">{{ item.description }}</p>
+                        {% if item.technologies %}
+                          <p class="f5 text-gray mb-0 mt-2">
+                            <span class="text-bold">Technologies:</span> 
+                            <span>{{ item.technologies }}</span>
+                          </p>
+                        {% endif %}
                     </div>
                   </li>
               {% endfor %}
