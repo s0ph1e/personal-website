@@ -30,7 +30,7 @@ jobs:
             ${{ runner.os }}-
 
       - name: Build & Deploy to GitHub Pages
-        uses: s0ph1e/jekyll-deploy@master
+        uses: DavidS/jekyll-deploy@master
         env:
           JEKYLL_ENV: production
           JEKYLL_GITHUB_TOKEN: ${{ secrets.JEKYLL_GITHUB_TOKEN }}
