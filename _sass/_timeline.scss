@@ -1,6 +1,7 @@
 
-$primary-color: #629fe6;
-$primary-color-hover: scale-color($primary-color, $lightness: 32%);
+$primary-color: #d1d5da; // $gray-300
+$line-color: #e1e4e8; // $gray-200
+$marker-hover-color: #79b8ff; //$blue-300
 
 /*-- GENERAL STYLES
 ------------------------------*/
@@ -54,7 +55,7 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
     &:after {
         content: "";
         width: 3px;
-        background: #CCD5DB;
+        background: $line-color;
         display: block;
         position: absolute;
         top: 25px; bottom: 0; left: 9px;
@@ -65,7 +66,7 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 }
 .timeline-item:not(.period):hover .timeline-marker:before {
     background: transparent;
-    border: 3px solid $primary-color;
+    border: 3px solid $marker-hover-color;
 }
 
 /*----- TIMELINE CONTENT -----*/
@@ -150,7 +151,7 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
             float: right;
             text-align: left;
             padding-left: 30px;
-        }    
+        }
 
         > .timeline-item.period .timeline-content {
             float: none;
@@ -173,6 +174,6 @@ $primary-color-hover: scale-color($primary-color, $lightness: 32%);
 }
 
 .timeline-title-logo {
-    height: 20px; 
+    height: 20px;
     vertical-align: bottom
 }
