@@ -76,7 +76,7 @@ experience:
 
   - date: "2012 - April 2014"
     title: Freelance
-    description: Various freelance projects including applications for social networks. 
+    description: Various freelance projects including applications for social networks.
     technologies: "PHP, MySQL, javascript, jQuery."
 
 social_media:
@@ -96,6 +96,9 @@ social_media:
   # vk: your_username
   website: https://sophia.antipenko.pp.ua
   # youtube: your_username
+
+analytics:
+  google: G-3PC0JSL57W
 
 # topics:
 #   - name: CSS
