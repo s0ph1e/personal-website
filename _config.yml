@@ -44,7 +44,8 @@ projects:
 
 bio:
   Hi, I'm Sophia. I am full-stack software engineer currently focused on web development using node.js.<br/>
-  I am passionate about building software that improves the lives of those around me, also really excited about Open Source Software. I have diverse set of skills, ranging from frontend, all the way to backend, databases and infrastructure administration.
+  I am passionate about building software that improves the lives of those around me, also really excited about Open Source Software.<br/>
+  I have diverse set of skills, ranging from front-end, all the way to back-end, databases and infrastructure administration.
 
 experience:
   - date: "February 2020 - present"
@@ -89,7 +90,7 @@ social_media:
   linkedin: sophia-antipenko-531bba82
   # mastodon: your_username
   # medium: your_username
-  stackoverflow: 3010618
+  # stackoverflow: 3010618
   telegram: sophia_antipenko
   # twitter: your_username
   # unsplash: your_username
