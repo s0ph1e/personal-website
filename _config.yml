@@ -4,7 +4,7 @@ style: light
 encoding: utf-8
 
 repository: s0ph1e/personal-website
-url: https://sophia.antipenko.pp.ua
+url: https://sofiia.antypenko.pp.ua
 
 plugins:
   - jekyll-octicons
@@ -43,7 +43,7 @@ projects:
     - node-unisender
 
 bio:
-  Hi, I'm Sophia. I am full-stack software engineer currently focused on web development using node.js.<br/>
+  Hi, I'm Sofiia. I am full-stack software engineer currently focused on web development using node.js.<br/>
   I am passionate about building software that improves the lives of those around me, also really excited about Open Source Software.<br/>
   I have diverse set of skills, ranging from front-end, all the way to back-end, databases and infrastructure administration.
 
@@ -87,15 +87,15 @@ social_media:
   # hackerrank: your_username
   # instagram: your_username
   # keybase: your_username
-  linkedin: sophia-antipenko-531bba82
+  linkedin: sofiia-antypenko-531bba82
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: 3010618
-  telegram: sophia_antipenko
+  telegram: sofiia_antypenko
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  website: https://sophia.antipenko.pp.ua
+  website: https://sofiia.antypenko.pp.ua
   # youtube: your_username
 
 analytics:
