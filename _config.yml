@@ -43,16 +43,23 @@ projects:
     - node-unisender
 
 bio:
-  Hi, I'm Sofiia. I am a full-stack software engineer currently focused on web development using node.js.<br/>
+  Hi, I'm Sofiia. I am a Software Engineer with 10+ years of commercial experience in IT, currently focused on backend and full-stack development.<br/>
   I am passionate about building software that improves the lives of those around me, also really excited about Open Source Software.<br/>
-  I have a diverse set of skills, ranging from front-end, all the way to back-end, databases, and infrastructure administration.
+  I have a diverse set of skills, ranging from front-end, all the way to back-end and databases.
 
 experience:
-  - date: "February 2020 - present"
+  - date: "February 2024 - Present"
     logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzciIGNsYXNzPSJjc3MtZ2hoZWF3LVN1bVVwTG9nbyBlMTZ2bzhhNjAiIHZpZXdCb3g9IjAgMCA2MyA2MyIgd2lkdGg9IjM3Ij48ZyBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoLz48cGF0aCBkPSJNNTguMi41SDUuMUMyLjcuNS43IDIuNS43IDQuOXY1Mi44YzAgMi40IDIgNC40IDQuNCA0LjRoNTMuMWMyLjQgMCA0LjQtMiA0LjQtNC40VjQuOWMwLTIuNS0yLTQuNC00LjQtNC40ek0zOS41IDQ2LjhjLTUuNCA1LjQtMTQgNS42LTE5LjcuN2wtLjEtLjFjLS4zLS4zLS40LS45IDAtMS4zTDM4LjkgMjdjLjQtLjMuOS0uMyAxLjMgMCA1IDUuOCA0LjggMTQuNC0uNyAxOS44em00LTMwLjVMMjQuMyAzNS40Yy0uNC4zLS45LjMtMS4zIDAtNS01LjctNC44LTE0LjMuNi0xOS43IDUuNC01LjQgMTQtNS42IDE5LjctLjcgMCAwIC4xIDAgLjEuMS41LjMuNS45LjEgMS4yeiIgZmlsbC1ydWxlPSJub256ZXJvIi8+PC9nPjwvc3ZnPg=="
     title: "SumUp"
     link: https://sumup.com/
-    description: "SumUp is a global fin-tech company which empowers business owners by enabling them to accept card payments in-store, in-app and online, in a simple, secure and cost-effective way. I'm part of team which is building reliable and easy-to-integrate Billing & Subscriptions solution from scratch."
+    description: "SumUp’s Point-of-Sale (POS) solution empowers cafes, shops, bars, hair salons, and other businesses to operate efficiently and grow. It offers a wide range of features and integrates seamlessly into different SumUp products. I'm working on the Sales Platform - a core component serving the needs of almost all teams at SumUp and used by millions of small businesses around the world."
+    technologies: "backend development using Kotlin, Kafka, gRPC, protobuf."
+
+  - date: "February 2020 - January 2024"
+    logo: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzciIGNsYXNzPSJjc3MtZ2hoZWF3LVN1bVVwTG9nbyBlMTZ2bzhhNjAiIHZpZXdCb3g9IjAgMCA2MyA2MyIgd2lkdGg9IjM3Ij48ZyBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoLz48cGF0aCBkPSJNNTguMi41SDUuMUMyLjcuNS43IDIuNS43IDQuOXY1Mi44YzAgMi40IDIgNC40IDQuNCA0LjRoNTMuMWMyLjQgMCA0LjQtMiA0LjQtNC40VjQuOWMwLTIuNS0yLTQuNC00LjQtNC40ek0zOS41IDQ2LjhjLTUuNCA1LjQtMTQgNS42LTE5LjcuN2wtLjEtLjFjLS4zLS4zLS40LS45IDAtMS4zTDM4LjkgMjdjLjQtLjMuOS0uMyAxLjMgMCA1IDUuOCA0LjggMTQuNC0uNyAxOS44em00LTMwLjVMMjQuMyAzNS40Yy0uNC4zLS45LjMtMS4zIDAtNS01LjctNC44LTE0LjMuNi0xOS43IDUuNC01LjQgMTQtNS42IDE5LjctLjcgMCAwIC4xIDAgLjEuMS41LjMuNS45LjEgMS4yeiIgZmlsbC1ydWxlPSJub256ZXJvIi8+PC9nPjwvc3ZnPg=="
+    title: "SumUp"
+    link: https://sumup.com/
+    description: "SumUp is a global fin-tech company which empowers business owners by enabling them to accept card payments in-store, in-app and online, in a simple, secure and cost-effective way. I was leading a team which builds reliable and easy-to-integrate Billing & Subscriptions solution from scratch."
     technologies: "microservices on Node.js with CQRS and Event Sourcing, MongoDB, RabbitMQ, React, MobX."
 
   - date: "February 2017 - February 2020"
